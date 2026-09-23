@@ -1,0 +1,31 @@
+{
+  "_comment": "车队与舱位样例。hazardCapable 舱位可装载危险品；烟火与锂电池/喷雾不得同舱，因此设置两个独立危险舱。",
+  "fleet": [
+    {
+      "vehicleId": "truck-A",
+      "durationMinutes": 900,
+      "durationMinutesByLeg": {
+        "Shanghai->Xi'an": 900,
+        "Xi'an->Chengdu": 840
+      },
+      "compartments": [
+        { "compartmentId": "truck-A-HOLD-MAIN", "lengthCm": 600, "widthCm": 240, "heightCm": 260, "payloadKg": 1200, "hazardCapable": false },
+        { "compartmentId": "truck-A-HOLD-LIGHT", "lengthCm": 400, "widthCm": 240, "heightCm": 220, "payloadKg": 600, "hazardCapable": false },
+        { "compartmentId": "truck-A-HOLD-HZ1", "lengthCm": 200, "widthCm": 120, "heightCm": 150, "payloadKg": 150, "hazardCapable": true },
+        { "compartmentId": "truck-A-HOLD-HZ2", "lengthCm": 200, "widthCm": 120, "heightCm": 150, "payloadKg": 150, "hazardCapable": true }
+      ]
+    },
+    {
+      "vehicleId": "truck-B",
+      "durationMinutes": 1020,
+      "durationMinutesByLeg": {
+        "Shanghai->Xi'an": 1020,
+        "Xi'an->Chengdu": 960
+      },
+      "compartments": [
+        { "compartmentId": "truck-B-HOLD-MAIN", "lengthCm": 700, "widthCm": 250, "heightCm": 280, "payloadKg": 1500, "hazardCapable": false },
+        { "compartmentId": "truck-B-HOLD-HZ", "lengthCm": 240, "widthCm": 140, "heightCm": 160, "payloadKg": 200, "hazardCapable": true }
+      ]
+    }
+  ]
+}

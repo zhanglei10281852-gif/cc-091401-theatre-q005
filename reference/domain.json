@@ -1,7 +1,15 @@
 {
+  "_comment": "交接记录样例字段：封签链逐段更新，历史不覆盖。",
   "caseId": "prop-018",
-  "seal": "S-700812",
+  "seal": "S-700917",
+  "previousSeals": ["S-700817"],
   "origin": "Shanghai",
+  "via": ["Xi'an"],
   "destination": "Chengdu",
-  "handoverSequence": 14
+  "legId": "Xi'an->Chengdu",
+  "manifestId": "MAN-XI'AN-CHENGDU-V1",
+  "unloadSlot": "Chengdu-DOCK-06",
+  "handoverSequence": 14,
+  "carrier": "carrier-dafa",
+  "scannedBy": { "deviceId": "PDA-CD-02", "seq": 7, "scannedAt": "2026-09-26T06:20:00+08:00", "receivedAt": "2026-09-26T06:21:04+08:00" }
 }

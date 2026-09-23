@@ -1,0 +1,18 @@
+{
+  "_comment": "离线扫码恢复样例：扫描枪 PDA-SH-07 在上海装车时离线缓存，到场部网络恢复后整批上传。幂等键为 deviceId + seq；重复上传同一批次只回 duplicates，不产生重复事件。第二只设备 PDA-CD-02 在成都卸货时发现 prop-033 的封签对不上交接记录。",
+  "deviceId": "PDA-SH-07",
+  "operatorId": "crew-wu",
+  "handoverId": null,
+  "scans": [
+    { "seq": 1, "caseId": "light-002", "seal": "S-700801", "scannedAt": "2026-09-24T09:52:00+08:00", "location": "Shanghai-stage-door" },
+    { "seq": 2, "caseId": "light-009", "seal": "S-700802", "scannedAt": "2026-09-24T09:55:00+08:00", "location": "Shanghai-stage-door" },
+    { "seq": 3, "caseId": "light-015", "seal": "S-700803", "scannedAt": "2026-09-24T09:58:00+08:00", "location": "Shanghai-stage-door" },
+    { "seq": 4, "caseId": "pyro-001", "seal": "S-700804", "scannedAt": "2026-09-24T10:04:00+08:00", "location": "Shanghai-hazmat-dock" },
+    { "seq": 5, "caseId": "fx-014", "seal": "S-700805", "scannedAt": "2026-09-24T10:07:00+08:00", "location": "Shanghai-hazmat-dock" },
+    { "seq": 6, "caseId": "prop-018", "seal": "S-700806", "scannedAt": "2026-09-24T10:12:00+08:00", "location": "Shanghai-stage-door" },
+    { "seq": 7, "caseId": "prop-021", "seal": "S-700807", "scannedAt": "2026-09-24T10:15:00+08:00", "location": "Shanghai-stage-door" },
+    { "seq": 8, "caseId": "prop-033", "seal": "S-700808", "scannedAt": "2026-09-24T10:18:00+08:00", "location": "Shanghai-stage-door" },
+    { "seq": 9, "caseId": "costume-007", "seal": "S-700809", "scannedAt": "2026-09-24T10:22:00+08:00", "location": "Shanghai-stage-door" },
+    { "seq": 10, "caseId": "costume-012", "seal": "S-700810", "scannedAt": "2026-09-24T10:25:00+08:00", "location": "Shanghai-stage-door" }
+  ]
+}

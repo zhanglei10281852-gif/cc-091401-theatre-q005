@@ -1,0 +1,9 @@
+{
+  "_comment": "上海→西安→成都巡演的到离站窗口。末站 departDeadline 为装台必须开始的时间（本场已被压缩）。",
+  "planId": "tour-sha-xa-cd-2026-09",
+  "cities": [
+    { "cityId": "Shanghai", "arriveAfter": "2026-09-24T09:00:00+08:00", "departDeadline": "2026-09-24T22:00:00+08:00" },
+    { "cityId": "Xi'an", "arriveAfter": "2026-09-25T14:00:00+08:00", "departDeadline": "2026-09-25T18:00:00+08:00" },
+    { "cityId": "Chengdu", "arriveAfter": "2026-09-26T06:00:00+08:00", "departDeadline": "2026-09-26T08:00:00+08:00" }
+  ]
+}

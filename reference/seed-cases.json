@@ -1,0 +1,15 @@
+{
+  "_comment": "巡演箱体台账样例（上海→西安→成都）。尺寸单位 cm，重量 kg；hazard 取值 none/lithium_battery/pyrotechnic/aerosol。",
+  "cases": [
+    { "caseId": "prop-018", "category": "prop", "lengthCm": 120, "widthCm": 60, "heightCm": 50, "weightKg": 65, "hazard": "none", "contents": "一桌二椅道具组" },
+    { "caseId": "prop-021", "category": "prop", "lengthCm": 100, "widthCm": 60, "heightCm": 60, "weightKg": 70, "hazard": "none", "contents": "书房景道具" },
+    { "caseId": "prop-033", "category": "prop", "lengthCm": 80, "widthCm": 50, "heightCm": 50, "weightKg": 40, "hazard": "none", "contents": "手持道具箱" },
+    { "caseId": "costume-007", "category": "costume", "lengthCm": 90, "widthCm": 60, "heightCm": 60, "weightKg": 55, "hazard": "none", "contents": "主角戏服" },
+    { "caseId": "costume-012", "category": "costume", "lengthCm": 90, "widthCm": 60, "heightCm": 60, "weightKg": 55, "hazard": "none", "contents": "群演戏服" },
+    { "caseId": "light-002", "category": "fragile_light", "lengthCm": 120, "widthCm": 50, "heightCm": 70, "weightKg": 85, "hazard": "lithium_battery", "contents": "易碎摇头灯（含备用锂电池）" },
+    { "caseId": "light-009", "category": "fragile_light", "lengthCm": 120, "widthCm": 50, "heightCm": 70, "weightKg": 85, "hazard": "none", "contents": "易碎摇头灯" },
+    { "caseId": "light-015", "category": "fragile_light", "lengthCm": 100, "widthCm": 45, "heightCm": 60, "weightKg": 60, "hazard": "none", "contents": "面光灯" },
+    { "caseId": "pyro-001", "category": "misc", "lengthCm": 60, "widthCm": 40, "heightCm": 40, "weightKg": 30, "hazard": "pyrotechnic", "contents": "演出烟火制品 1.4G" },
+    { "caseId": "fx-014", "category": "misc", "lengthCm": 50, "widthCm": 40, "heightCm": 40, "weightKg": 25, "hazard": "aerosol", "contents": "服装定型喷雾" }
+  ]
+}
